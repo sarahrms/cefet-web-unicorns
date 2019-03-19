@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+#cabecalho {
+  background-color: #6175f0;
+  color: white;
+  padding-left: 34px;
+  padding-top: 20px;
+  padding-bottom: 13px;
+}
+
+#cabecalho h1 {
+  font-size: 36px;
+  font-family: 'Kaushan Script';
+}
+
+#cabecalho h2 {
+  font-size: 24px;
+  font-family: Times;
+}
+
+#verdade p {
+  font-size: 14px;
+  font-family: Arial;
+}
+
+#verdade img {
+  width: 310px;
+  float: left;
+  margin-right: 13px;
+}
+
+#verdade h2 {
+  color: black;
+  font-size: 24px;
+  font-family: Times;
+}
+
+#hoje {
+  margin-right: 25px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  background-color: #f8cef7;
+  border: 1px solid #ff56fb;
+  color: black;
+  width: 405px;
+  float: right;
+  text-align: center;
+  font-family: Times;
+  font-size: 14px;
+}
+
+#hoje img{
+  margin: auto;
+  width: 112px;
+  height: 112px;
+}
+
+#hoje h2 {
+  font-size: 24px;
+}
+
+#hoje h3{
+  font-size: 18px;
+}
+
+#musica {
+  margin-left: 12px;
+  font-family: Times;
+  font-size: 14px;
+  color: black;
+}
+
+#musica p {
+    white-space: pre;
+}
+
+#musica h2 {
+  font-size: 24px;
+}
+
+#musica>p:nth-child(odd){
+  padding-left: 34px;
+}
+
+.destacado {
+  background-color: #c4caf3;
+  color: #004a79;
+}
+
+.destacado p:nth-child(even){
+  padding-left: 34px;
+}
