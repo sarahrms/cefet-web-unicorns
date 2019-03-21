@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
+body {
+  margin: auto;
+  width: 1100px;
+  padding-bottom: 20px;
+}
+
 #cabecalho {
   background-color: #6175f0;
   color: white;
@@ -66,27 +72,43 @@
 }
 
 #musica {
-  margin-left: 12px;
-  font-family: Times;
   font-size: 14px;
-  color: black;
-}
-
-#musica p {
-    white-space: pre;
+  clear: left;
 }
 
 #musica h2 {
+  padding-left: 12px;
+  font-family: Times;
   font-size: 24px;
+  color: black;
 }
 
 #musica>p:nth-child(odd){
-  padding-left: 34px;
+  padding-left: 46px;
+}
+
+#musica>p {
+  font-family: Arial;
+  padding-left: 12px;
+  white-space: pre-line;
+  color: black;
 }
 
 .destacado {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 12px;
+  white-space: pre-line;
+  font-family: Arial;
   background-color: #c4caf3;
   color: #004a79;
+}
+
+.destacado p {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .destacado p:nth-child(even){
